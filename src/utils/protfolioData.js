@@ -8,6 +8,7 @@ import notepadPic from "../assets/images/portfolio/notepad2.png";
 import burgerPic from "../assets/images/portfolio/burger2.png";
 import employeePic from "../assets/images/portfolio/emp.png";
 import fitnessPic from "../assets/images/portfolio/dashboard.png";
+import employeeDirPic from "../assets/images/portfolio/employee-dir.png";
 
 function ProjectCard(title, about, imgURL, siteURL, repoURL) {
     this.title = title;
@@ -16,6 +17,14 @@ function ProjectCard(title, about, imgURL, siteURL, repoURL) {
     this.siteURL = siteURL;
     this.repoURL = repoURL;
 };
+
+const employeeDirCard = new ProjectCard(
+    "Employee Directory",
+    "An applicaiton, built with React, for viewing and filtering information about employees.",
+    "assets/images/portfolio/employee-dir.png",
+    "https://jpreston-alt.github.io/React-Employee-Directory/",
+    "https://github.com/jpreston-alt/React-Employee-Directory"
+);
 
 const quarCard = new ProjectCard(
     "Quarentainment",
@@ -97,6 +106,6 @@ const fitnessCard = new ProjectCard(
     "https://github.com/jpreston-alt/fitness-tracker"
 );
 
-let portfolioData = [budgetCard, quarCard, burgerCard, notepadCard, fitnessCard, employeeCard, weatherCard, profileGenCard];
+let portfolioData = [budgetCard, quarCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, employeeCard, weatherCard, profileGenCard];
 
 export default portfolioData;
