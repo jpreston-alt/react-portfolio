@@ -13,6 +13,7 @@ function App() {
     < Router >
       <Route exact path="/" component={AboutPage} />
       <Route exact path="/about" component={AboutPage} />
+      <Route exact path="/react-portfolio" component={AboutPage} />
       <Route exact path="/portfolio" component={PortfolioPage} />
       <Route exact path="/skills" component={SkillsPage} />
       <ContactCanvas />
