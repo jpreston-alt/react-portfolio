@@ -13,8 +13,8 @@ function App() {
   return (
     < Router >
       <Route exact path="/" component={AboutPage} />
-      <Route exact path="/about" component={AboutPage} />
-      <Route exact path="/portfolio" component={PortfolioPage} />
+      <Route path="/about" component={AboutPage} />
+      <Route path="/portfolio" component={PortfolioPage} />
       <Route exact path="/skills" component={SkillsPage} />
       <MobileMenu />
       <ContactCanvas />
