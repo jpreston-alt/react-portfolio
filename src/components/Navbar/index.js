@@ -2,7 +2,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import MobileMenu from "./MobileMenu";
 
 const style = {
     navbar: {
@@ -17,9 +16,9 @@ function Navbar(props) {
             <nav className="uk-navbar-container uk-navbar navbar" style={style.navbar}>
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav uk-visible@m">
-                        <li><Link to="/about" className="nav-item" style={{ color: props.color }}>About</Link></li>
-                        <li><Link to="/portfolio" className="nav-item" style={{ color: props.color }}>Portfolio</Link></li>
-                        <li><Link to="/skills" className="nav-item" style={{ color: props.color }}>Skills</Link></li>
+                        <li><Link to="/react-portfolio/about" className="nav-item" style={{ color: props.color }}>About</Link></li>
+                        <li><Link to="/react-portfolio/portfolio" className="nav-item" style={{ color: props.color }}>Portfolio</Link></li>
+                        <li><Link to="/react-portfolio/skills" className="nav-item" style={{ color: props.color }}>Skills</Link></li>
                         <li><a uk-toggle="target: #resume-modal" className="nav-item">Resume</a></li>
                         <li><a uk-toggle="target: #contact-canvas" className="nav-item" style={{ color: props.color }}>Contact</a></li>
                     </ul>
@@ -27,7 +26,6 @@ function Navbar(props) {
                         uk-icon="icon: menu; ratio: 1.5"></span></a>
                 </div>
             </nav>
-            <MobileMenu />
         </div>
     )
 };

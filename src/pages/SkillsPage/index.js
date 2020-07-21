@@ -14,7 +14,7 @@ function SkillsPage(props) {
             <Navbar />
             <Header padding={70} title="Technical Skills" />
             <CardContainer>
-                <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" uk-scrollspy="cls: uk-animation-fade target: .uk-card; delay: 250; repeat: true" id="skills-section">
+                <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
                     <SkillsCard
                         skills={clientSide}
                         title="Client Side"
