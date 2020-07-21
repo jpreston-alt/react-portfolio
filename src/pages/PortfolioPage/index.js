@@ -6,10 +6,11 @@ import PortfolioCard from "../../components/PortfolioCard";
 import CardContainer from "../../components/CardContainer";
 import BackgroundImage from "../../components/BackgroundImage";
 import portfolioData from "../../utils/protfolioData";
+import imageURL from "../../assets/images/background/green-leaves-flip.jpeg";
 
 function PortfolioPage() {
     return (
-        <BackgroundImage image="/assets/images/background/green-leaves-flip.jpeg" >
+        <BackgroundImage image={imageURL} >
             <Navbar />
             <Header padding={70} title="Portfolio" />
             <CardContainer>

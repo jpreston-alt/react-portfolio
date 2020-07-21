@@ -6,10 +6,11 @@ import CardContainer from "../../components/CardContainer";
 import BackgroundImage from "../../components/BackgroundImage";
 import SkillsCard from "../../components/SkillsCard";
 import { clientSide, serverSide, design } from "../../utils/skillsData";
+import imageURL from "../../assets/images/background/green-leaves.jpg";
 
 function SkillsPage(props) {
     return (
-        <BackgroundImage image="/assets/images/background/green-leaves.jpg" >
+        <BackgroundImage image={imageURL} >
             <Navbar />
             <Header padding={70} title="Technical Skills" />
             <CardContainer>
