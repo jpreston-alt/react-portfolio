@@ -25,7 +25,7 @@ function AboutSection() {
                             and all opportunities. I am excited about merging my background in design with my newly
                             developed technical skills, to build both useful and beautiful things on the web.
                     </p>
-                        <img src="assets/images/mebw.png" style={{ width: 125 }} />
+                        <img src="assets/images/me.png" alt="Me" style={{ width: 175 }} />
                     </div>
                 </div>
             </div>
