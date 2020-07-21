@@ -16,9 +16,9 @@ function Navbar(props) {
             <nav className="uk-navbar-container uk-navbar navbar" style={style.navbar}>
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav uk-visible@m">
-                        <li><Link to="/react-portfolio/about" className="nav-item" style={{ color: props.color }}>About</Link></li>
-                        <li><Link to="/react-portfolio/portfolio" className="nav-item" style={{ color: props.color }}>Portfolio</Link></li>
-                        <li><Link to="/react-portfolio/skills" className="nav-item" style={{ color: props.color }}>Skills</Link></li>
+                        <li><Link to="/about" className="nav-item" style={{ color: props.color }}>About</Link></li>
+                        <li><Link to="/portfolio" className="nav-item" style={{ color: props.color }}>Portfolio</Link></li>
+                        <li><Link to="/skills" className="nav-item" style={{ color: props.color }}>Skills</Link></li>
                         <li><a uk-toggle="target: #resume-modal" className="nav-item">Resume</a></li>
                         <li><a uk-toggle="target: #contact-canvas" className="nav-item" style={{ color: props.color }}>Contact</a></li>
                     </ul>

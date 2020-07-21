@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import './index.css';
 import AboutPage from "./pages/AboutPage";
 import SkillsPage from "./pages/SkillsPage";
@@ -13,10 +13,9 @@ function App() {
   return (
     < Router >
       <Route exact path="/" component={AboutPage} />
-      <Route exact path="/react-portfolio/about" component={AboutPage} />
-      <Route exact path="/react-portfolio" component={AboutPage} />
-      <Route exact path="/react-portfolio/portfolio" component={PortfolioPage} />
-      <Route exact path="/react-portfolio/skills" component={SkillsPage} />
+      <Route exact path="/about" component={AboutPage} />
+      <Route exact path="/portfolio" component={PortfolioPage} />
+      <Route exact path="/skills" component={SkillsPage} />
       <MobileMenu />
       <ContactCanvas />
       <ResumeModal />
