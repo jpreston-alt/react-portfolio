@@ -3,14 +3,15 @@ import "./style.css";
 import Navbar from "../../components/Navbar";
 import HomeHeader from "../../components/HomeHeader";
 import AboutSection from "../../components/AboutSection";
+import BackgroundImage from "../../components/BackgroundImage";
 
 function AboutPage() {
     return (
-        <div id="pic-section" uk-parallax="bgy: -200">
+        <BackgroundImage image="/assets/images/background/top-left.jpeg" >
             <Navbar />
             <HomeHeader />
             <AboutSection />
-        </div>
+        </BackgroundImage>
     )
 };
 

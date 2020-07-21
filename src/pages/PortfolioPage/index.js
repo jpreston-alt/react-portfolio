@@ -3,22 +3,32 @@ import "./style.css";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import PortfolioCard from "../../components/PortfolioCard";
+import CardContainer from "../../components/CardContainer";
+import BackgroundImage from "../../components/BackgroundImage";
+import portfolioData from "../../utils/protfolioData";
 
 function PortfolioPage() {
     return (
-        <div className="portfolio-pic-section">
+        <BackgroundImage image="/assets/images/background/green-leaves-flip.jpeg" >
             <Navbar />
-            <div class="uk-container portfolio-container" id="portfolio">
-                <Header padding={50} title="Portfolio" />
-                <div class="uk-child-width-1-2@m uk-grid-match" uk-grid="true" id="portfolio-section"
-                    uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 250; repeat: true">
-                    <PortfolioCard />
-                    <PortfolioCard />
-                    <PortfolioCard />
-                    <PortfolioCard />
+            <Header padding={70} title="Portfolio" />
+            <CardContainer>
+                <div className="uk-child-width-1-2@m uk-grid-match" uk-grid="true" id="portfolio-section" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 250; repeat: true">
+                    {
+                        portfolioData.map((el, index) => {
+                            return <PortfolioCard
+                                title={el.title}
+                                about={el.about}
+                                repoURL={el.repoURL}
+                                siteURL={el.siteURL}
+                                imgURL={el.imgURL}
+                                key={index}
+                            />
+                        })
+                    }
                 </div>
-            </div>
-        </div>
+            </CardContainer>
+        </BackgroundImage>
     )
 };
 

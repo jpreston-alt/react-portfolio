@@ -1,5 +1,5 @@
-#pic-section {
-    background-image: url("/assets/images/background/top-left.jpeg"); 
+.pic-section {
+    /* background-image: url("/assets/images/background/top-left.jpeg");  */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
