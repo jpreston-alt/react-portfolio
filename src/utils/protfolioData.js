@@ -21,7 +21,7 @@ function ProjectCard(title, about, imgURL, siteURL, repoURL) {
 const employeeDirCard = new ProjectCard(
     "Employee Directory",
     "An applicaiton, built with React, for viewing and filtering information about employees.",
-    "assets/images/portfolio/employee-dir.png",
+    employeeDirPic,
     "https://jpreston-alt.github.io/React-Employee-Directory/",
     "https://github.com/jpreston-alt/React-Employee-Directory"
 );
