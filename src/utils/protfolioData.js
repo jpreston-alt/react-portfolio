@@ -9,6 +9,7 @@ import burgerPic from "../assets/images/portfolio/burger2.png";
 import employeePic from "../assets/images/portfolio/emp.png";
 import fitnessPic from "../assets/images/portfolio/dashboard.png";
 import employeeDirPic from "../assets/images/portfolio/employee-dir.png";
+import pwaPic from "../assets/images/portfolio/pwa.png";
 
 function ProjectCard(title, about, imgURL, siteURL, repoURL) {
     this.title = title;
@@ -20,7 +21,7 @@ function ProjectCard(title, about, imgURL, siteURL, repoURL) {
 
 const employeeDirCard = new ProjectCard(
     "Employee Directory",
-    "An applicaiton, built with React, for viewing and filtering information about employees.",
+    "An application, built with React, that allows the user to have quick and easy access to employee information. User may filter and search employees by name, and sort by name, email, DOB, and phone number.",
     employeeDirPic,
     "https://jpreston-alt.github.io/React-Employee-Directory/",
     "https://github.com/jpreston-alt/React-Employee-Directory"
@@ -106,6 +107,14 @@ const fitnessCard = new ProjectCard(
     "https://github.com/jpreston-alt/fitness-tracker"
 );
 
-let portfolioData = [budgetCard, quarCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, employeeCard, weatherCard, profileGenCard];
+const pwaCard = new ProjectCard(
+    "Budget Tracker",
+    "A budgeting application that utilizes Service Workers, the Cache API, and IndexedDB to allow the user to track their expenses and manage their money, with or without internet connection.",
+    pwaPic,
+    "https://jp-pwa-budget.herokuapp.com/",
+    "https://github.com/jpreston-alt/pwa-budget-tracker"
+);
+
+let portfolioData = [budgetCard, quarCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, pwaCard, weatherCard];
 
 export default portfolioData;

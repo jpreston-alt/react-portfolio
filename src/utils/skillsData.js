@@ -1,23 +1,21 @@
 const clientSide = [
     "React",
-    "HTML 5",
-    "CSS 3",
+    "HTML",
+    "CSS",
     "JavaScript",
     "jQuery",
-    "Bootstrap",
-    "Bulma",
-    "UIKit"
+    "Bootstrap, Bulma, UIKit",
+    // "Bulma",
+    // "UIKit"
 ];
 
 const serverSide = [
     "Node.js",
-    "npm",
     "Express.js",
     "Handlebars",
-    "MySQL",
+    "MySQL ",
     "Sequelize",
     "MongoDB",
-    "AJAX / AXIOS"
 ];
 
 const design = [
