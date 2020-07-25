@@ -10,6 +10,7 @@ import employeePic from "../assets/images/portfolio/emp.png";
 import fitnessPic from "../assets/images/portfolio/dashboard.png";
 import employeeDirPic from "../assets/images/portfolio/employee-dir.png";
 import pwaPic from "../assets/images/portfolio/pwa.png";
+import buddyPic from "../assets/images/portfolio/buddy-match.png";
 
 function ProjectCard(title, about, imgURL, siteURL, repoURL) {
     this.title = title;
@@ -115,6 +116,14 @@ const pwaCard = new ProjectCard(
     "https://github.com/jpreston-alt/pwa-budget-tracker"
 );
 
-let portfolioData = [budgetCard, quarCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, pwaCard, weatherCard];
+const buddyCard = new ProjectCard(
+    "Budget Match",
+    "A dog adoption application that utilizes data from The Pet Finder API, and allows users to search for adoptable dogs and local shelters. This application is a work in progress and is my first attempt at a full MERN stack application (MongoDB, Express, React, and Node).",
+    buddyPic,
+    "https://buddy-match-dotcom.herokuapp.com/",
+    "https://github.com/jpreston-alt/buddy-match"
+);
+
+let portfolioData = [budgetCard, quarCard, buddyCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, weatherCard];
 
 export default portfolioData;
