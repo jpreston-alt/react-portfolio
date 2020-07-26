@@ -102,7 +102,7 @@ const employeeCard = new ProjectCard(
 
 const fitnessCard = new ProjectCard(
     "Fitness Tracker",
-    "An full-stack application that allows the user to track their daily workouts and fitness progress. Built using JavaScript, Node, Express, MongoDB, and Mongoose.",
+    "A full-stack application that allows the user to track their daily workouts and fitness progress. Built using JavaScript, Node, Express, MongoDB, and Mongoose.",
     fitnessPic,
     "https://jp-fitness-tracker.herokuapp.com/",
     "https://github.com/jpreston-alt/fitness-tracker"
