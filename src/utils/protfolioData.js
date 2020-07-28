@@ -117,7 +117,7 @@ const pwaCard = new ProjectCard(
 );
 
 const buddyCard = new ProjectCard(
-    "Budget Match",
+    "Buddy Match",
     "A dog adoption application that utilizes data from The Pet Finder API, and allows users to search for adoptable dogs and local shelters. This application is a work in progress and is my first attempt at a full MERN stack application (MongoDB, Express, React, and Node).",
     buddyPic,
     "https://buddy-match-dotcom.herokuapp.com/",
