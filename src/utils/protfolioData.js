@@ -124,6 +124,6 @@ const buddyCard = new ProjectCard(
     "https://github.com/jpreston-alt/buddy-match"
 );
 
-let portfolioData = [budgetCard, quarCard, buddyCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, weatherCard];
+let portfolioData = [quarCard, buddyCard, budgetCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, weatherCard];
 
 export default portfolioData;
