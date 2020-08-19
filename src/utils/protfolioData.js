@@ -11,6 +11,7 @@ import fitnessPic from "../assets/images/portfolio/dashboard.png";
 import employeeDirPic from "../assets/images/portfolio/employee-dir.png";
 import pwaPic from "../assets/images/portfolio/pwa.png";
 import buddyPic from "../assets/images/portfolio/buddy-match.png";
+import votePic from "../assets/images/portfolio/vote-goat.png";
 
 function ProjectCard(title, about, imgURL, siteURL, repoURL) {
     this.title = title;
@@ -124,6 +125,14 @@ const buddyCard = new ProjectCard(
     "https://github.com/jpreston-alt/buddy-match"
 );
 
-let portfolioData = [quarCard, buddyCard, budgetCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, weatherCard];
+const voteCard = new ProjectCard(
+    "Vote Goat",
+    "A web application that provides users with information about when, where, and how to vote in their area and gives them access to contact information about their representatives. A full MERN stack applicaiton built using React, Express, Node, MongoDB and Auto0. Logged in users may save events to their calendar, and locations and representatives to their dashboard.",
+    votePic,
+    "https://vote-goat.herokuapp.com/",
+    "https://github.com/jpreston-alt/Voting-App"
+);
+
+let portfolioData = [voteCard, buddyCard, quarCard, budgetCard, employeeDirCard, burgerCard, notepadCard, fitnessCard, weatherCard];
 
 export default portfolioData;

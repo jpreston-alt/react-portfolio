@@ -56,6 +56,12 @@ polyline {
     }
 } 
 
+@media only screen and (max-width: 420px) {
+    .project-description {
+        font-size: 10px;
+    }
+} 
+
 @media only screen and (min-width: 375px) {
     .portfolio-btn {
         margin-left: 12px;
