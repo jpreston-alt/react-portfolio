@@ -127,7 +127,7 @@ const buddyCard = new ProjectCard(
 
 const voteCard = new ProjectCard(
     "Vote Goat",
-    "A web application that provides users with information about when, where, and how to vote in their area and gives them access to contact information about their representatives. A full MERN stack applicaiton built using React, Express, Node, MongoDB and Auto0. Logged in users may save events to their calendar, and locations and representatives to their dashboard.",
+    "A web application that provides users with information about when, where, and how to vote in their area and gives them access to contact information about their representatives. Logged in users may save events to their calendar, and locations and representatives to their dashboard. A full MERN stack applicaiton built using React, Express, Node, MongoDB and Auto0.",
     votePic,
     "https://vote-goat.herokuapp.com/",
     "https://github.com/jpreston-alt/Voting-App"
