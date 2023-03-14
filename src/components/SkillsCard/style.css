@@ -1,10 +1,15 @@
-.skills-title, .portfolio-title {
-    margin-bottom: 40px;
-    margin-top: 120px;
+.skills-title,
+.portfolio-title {
+  margin-bottom: 40px;
+  margin-top: 120px;
+}
+
+.skills-card {
+  border-radius: 10px;
 }
 
 .skills-icon {
-    color: #fda387;
+  color: #fda387;
 }
 
 .slide-left {
@@ -20,16 +25,4 @@
 .slide-up {
   animation: slideInUp;
   animation-duration: 3s;
-}
-
-@media only screen and (min-width: 960px) {
-    .design-card-footer {
-        position: absolute;
-        bottom: 0px;
-        width: 80%;
-    }
-
-    .design-card {
-        position: relative;
-    }
 }
