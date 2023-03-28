@@ -73,7 +73,7 @@ const notepadCard = new ProjectCard(
   "Notepad",
   "Organize your thoughts with Notepad, a note-taking application build with Express.js. Notepad helps you keep track of everything you need to remember by allowing you to save, view, and delete important reminders and thoughts.",
   notepadPic,
-  "https://jp-express-notepad.herokuapp.com/",
+  null,
   "https://github.com/jpreston-alt/Express-Note-Taker"
 );
 
@@ -81,7 +81,7 @@ const burgerCard = new ProjectCard(
   "Eat-Da-Burger",
   "A full-stack, restaurant application that allows the user to input, devour, rate, and delete tasty burgers from a MySQL database. Eat-Da-Burger utilizes the MVC design pattern, and is built using MySQL, Node, Express, Handlebars and a homemade ORM.",
   burgerPic,
-  "https://jp-burger-logger.herokuapp.com/",
+  null,
   "https://github.com/jpreston-alt/Burger-Logger"
 );
 
@@ -89,7 +89,7 @@ const budgetCard = new ProjectCard(
   "Check Yourself",
   "A full-stack budgeting application, that helps the user track their monthly expenses and manage their money wisely, based on the 50/30/20 budgeting rule. Check Yourself is built using Node, Express, Passport and a MySQL Database. Guest Login: guest@checkyourself.com, guestpw.",
   checkYourselfPic,
-  "https://jp-project2.herokuapp.com/",
+  null,
   "https://github.com/jpreston-alt/Check-Yourself"
 );
 
@@ -105,7 +105,7 @@ const fitnessCard = new ProjectCard(
   "Fitness Tracker",
   "A full-stack application that allows the user to track their daily workouts and fitness progress. Built using JavaScript, Node, Express, MongoDB, and Mongoose.",
   fitnessPic,
-  "https://jp-fitness-tracker.herokuapp.com/",
+  null,
   "https://github.com/jpreston-alt/fitness-tracker"
 );
 
@@ -129,7 +129,7 @@ const voteCard = new ProjectCard(
   "Vote Goat",
   "A web application that provides users with information about when, where, and how to vote in their area and gives them access to contact information about their representatives. Logged in users may save events to their calendar, and locations and representatives to their dashboard. A full MERN stack applicaiton built using React, Express, Node, MongoDB and Auto0.",
   votePic,
-  "https://vote-goat.herokuapp.com/",
+  null,
   "https://github.com/jpreston-alt/Voting-App"
 );
 
